@@ -3,11 +3,11 @@
 
 This project demonstrates a practical approach to detecting fraudulent credit card transactions using machine learning.
 
-## 🧠 Objective
+## Objective
 
 Build a robust machine learning pipeline that can accurately classify credit card transactions as fraudulent or legitimate, with special attention to handling class imbalance and optimizing model performance.
 
-## 📊 Dataset
+## Dataset
 
 The dataset is sourced from [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
 
@@ -15,7 +15,7 @@ The dataset is sourced from [Kaggle - Credit Card Fraud Detection](https://www.k
 - Features are numerical due to PCA transformation, except for `Time` and `Amount`.
 - Highly imbalanced: only ~0.17% of transactions are fraudulent.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas, NumPy
@@ -25,7 +25,7 @@ The dataset is sourced from [Kaggle - Credit Card Fraud Detection](https://www.k
 - Matplotlib, Seaborn
 - Jupyter Notebook
 
-## 🧪 Project Workflow
+## Project Workflow
 
 1. **Data Preprocessing**
    - Clean and scale data using `StandardScaler`.
@@ -44,7 +44,7 @@ The dataset is sourced from [Kaggle - Credit Card Fraud Detection](https://www.k
    - Detailed classification report.
    - ROC Curve visualization to assess model performance.
 
-## 📈 Results
+## Results
 
 - Successfully addressed class imbalance with SMOTE.
 - Achieved high recall and AUC scores suitable for fraud detection scenarios.
