@@ -38,14 +38,15 @@ The dataset is sourced from [Kaggle - Credit Card Fraud Detection](https://www.k
 3. **Model Development**
    - Train/test split after SMOTE.
    - Model training using **XGBoost** (also compatible with Logistic Regression and Random Forest).
-   - Performance evaluated using precision, recall, F1-score, and ROC-AUC.
+   - Performance evaluated using precision, recall, F1-score, ROC-AUC, PR Curve and KS Statistic.
 
 4. **Evaluation**
    - Detailed classification report.
-   - ROC Curve visualization to assess model performance.
+   - PR Curve visualization to assess model performance.
+   - KS Statistic used to determine model's ability to distinguish between positive and negative classes
 
 ## Results
 
 - Successfully addressed class imbalance with SMOTE.
-- Achieved high recall and AUC scores suitable for fraud detection scenarios.
-- ROC curve used to visualize trade-offs between true positive and false positive rates.
+- Achieved high recall and precision scores suitable for fraud detection scenarios.
+- PR curve used to assess performance of the positive (fraudulent) class.
